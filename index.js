@@ -5,6 +5,10 @@ var Moment = require('moment')
 /* C */
 var KOCString = require('koc-common-string')
 
+if ('default' in Moment) {
+  Moment = Moment['default']
+}
+
 /* C */
 var KOCDatetime = {
   Moment: Moment,
