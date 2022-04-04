@@ -461,8 +461,8 @@ var KOCDatetime = {
     return _Date
   }
 }
-Moment = require('moment')
-if ('default' in Moment) {
-  KOCDatetime.Moment = Moment['default']
-}
+// Moment = require('moment')
+// if ('default' in Moment) {
+//   KOCDatetime.Moment = Moment['default']
+// }
 module.exports = KOCDatetime
